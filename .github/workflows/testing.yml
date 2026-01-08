@@ -23,10 +23,10 @@ jobs:
         pip install -r requirements.txt
     - name: Write config file
       run: |
-        - rm config.yml
-        - echo "model:" >> config.yml
-        - echo "  base_url: \"https://dashscope.aliyuncs.com/compatible-mode/v1\"" >> config.yml
-        - echo "  api_key: \"${{ secrets.DASHSCOPE_API_KEY }}\"" >> config.yml
+        rm config.yml
+        echo "model:" >> config.yml
+        echo "  base_url: \"https://dashscope.aliyuncs.com/compatible-mode/v1\"" >> config.yml
+        echo "  api_key: \"${{ secrets.DASHSCOPE_API_KEY }}\"" >> config.yml
     - name: Run tests
       run: |
         python -m pytest -v -s
