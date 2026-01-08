@@ -1,3 +1,4 @@
 model:
   base_url: "https://dashscope.aliyuncs.com/compatible-mode/v1"
+  # It's obvious. This API key is invalid, so don't try it, use your own.
   api_key: "sk-081a3330e06c4908a67986b769e4d578"
