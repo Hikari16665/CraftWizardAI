@@ -1,9 +1,12 @@
 
 
 #Ignore vscode AI rules
-.github\instructions\
-#Ignore vscode settings
-.vscode\
+.github\instructions
+
+#ignore vscode settings
+.vscode
+
+
 
 *.pyc
 
