@@ -1,6 +1,6 @@
 ---
 name: Custom issue template
-about: Describe this issue template's purpose here.
+about: Some custom issues that do not fall into any of the above categories.
 title: ''
 labels: Need to check
 assignees: Hikari16665
