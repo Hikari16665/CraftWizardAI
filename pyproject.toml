@@ -1,0 +1,10 @@
+[tool.pytest.ini_options]
+# Configure pytest to look for tests in all Python files
+python_files = ["*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+
+addopts = [
+    "-v",
+    "-s"
+]

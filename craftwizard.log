@@ -1,0 +1,4 @@
+[2026-01-08 14:25:28,450][INFO] StageManager: StageManager initialized
+[2026-01-08 14:25:28,451][INFO] StageManager: Reset stage to 0
+[2026-01-08 14:25:41,958][INFO] httpx: HTTP Request: POST https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions "HTTP/1.1 200 OK"
+[2026-01-08 14:25:41,963][INFO] stages.stage_0: AI需要进一步了解需求：需求1具体是指什么功能？请详细描述插件需要实现的核心功能
